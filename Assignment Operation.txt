@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Examples in JS Operations</title>
+</head>
+<body>
+    <h1>Javascript Assignment Operation</h1>
+    <h3>let check-out Example.</h3>
+    <script>
+        let Score = 0;
+        
+        // Now additing Score
+
+        Score +=10; // Now addting 10 to Score (0+10=10)
+        document.write(` After adding Score value = ${Score}`)// I used Template String
+
+        // Now Subtraction Score
+
+        Score -=2; //Now subtraction 2 from Score(10-2=8)
+        document.write(` After subtraction Score value = ${Score}`)// I used Template String
+
+        //Now Multiplication Score
+
+        Score *=2; // Now multiplication to score(8*2=16)
+        document.write(` After Multiplication Score value =${Score}`)// I used Template String 
+
+        //Now Division Score
+
+        Score /=4; // Now Division by 4 to Score(16/4=4)
+        document.write(` After Division Score value = ${Score}`)// I used Template String
+
+        //Now Modulus Score 
+
+        Score %= 3; // Now 3 Modulus to Score(4%3=1)
+        document.write(` After modulus Score Value = ${Score}`) // I used Template String
+        
+        //Now Exponentiation score
+        Score **= 3;
+        document.write(` After  Exponentiation Score value = ${Score}`) // I used Template String 
+
+    </script>
+    
+</body>
+<p> Let assume<mark>Score is 0 </mark> now going to perform Assignment Operation</p>
+<p>it means {<b><mark>+=, -= , *= , /= , %= ,**=}</mark></b></p>
+
+</html>
